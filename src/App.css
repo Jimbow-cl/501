@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+}
+
+.zone {
+  display: flex;
+  align-items: center;
+}
+
+.zone0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: #0f3039aa;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.button {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.fleche {
+  background-color: orangered;
+  color: aliceblue;
+}
+
+.b1 {
+  background-color: rgb(19, 111, 23);
+  color: aliceblue;
+}
+
+.b5 {
+  background-color: rgb(255, 38, 0);
+  color: aliceblue;
+}
+
+.b20 {
+  background-color: rgb(19, 111, 23);
+  color: aliceblue;
+}
+
+.b25 {
+  background-color: rgb(255, 38, 0);
+  color: aliceblue;
+}
+
+.b50 {
+  background-color: rgb(19, 111, 23);
+  color: aliceblue;
+}
+
+.reset {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.selection {
+  height: 40px;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid rgb(19, 111, 23);
+  border-radius: 8px;
+}
